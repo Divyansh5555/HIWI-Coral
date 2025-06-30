@@ -144,7 +144,7 @@ def visualize(img, mask, pred, fname, save_dir):
     ax[1].imshow(mask, cmap="gray")
     ax[1].set_title("Ground Truth", fontsize=16)
     ax[2].imshow(pred, cmap="gray")
-    ax[2].set_title("UNet Prediction", fontsize=16)
+    ax[2].set_title("U-Net Prediction", fontsize=16)
     ax[3].imshow(overlay)
     ax[3].set_title("(FN=Red, FP=Green)", fontsize=16)
 
